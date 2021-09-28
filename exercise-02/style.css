@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #3e5a65;
+}
+
+header {
+  width: 100%;
+  height: 10.65vh;
+  background-color: #0b191d;
+  border-bottom: 1px solid black;
+  position: fixed;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  width: calc(100% - 11.71vw);
+  font-size: 5vh;
+  text-align: center;
+  text-transform: uppercase;
+  color: #859fa7;
+}
+
+header > .topo {
+  position: absolute;
+  left: 20px;
+}
+
+header .topo a.icone_menu i {
+  color: #3e5a65;
+  font-size: 6.1vh;
+  padding-top: 5px;
+  transition: .2% ease;
+}
+
+header .topo a.icone_menu i:hover {
+  color: #babaae;
+  cursor: pointer;
+  transition: .1s;
+}
+
+nav.menu {
+  width: 300px;
+  height: 100vh;
+  margin-top: 6.9vh;
+  background-color: #223b44;
+  position: fixed;
+  left: -300px;
+  transition: .3s all;
+}
+
+nav.menu > a {
+  display: block;
+  padding: 5px;
+  margin: 15px 0px 0px 20px;
+  color: #babaae;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav.menu > a:hover {
+  color: #a44c21;
+  transition: .1s ease;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.center {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3.04vh;
+  color: #babaae;
+}
+
+.limit {
+  width: 60vw;
+  text-align: justify;
+  text-indent: 2rem;
+  line-height: 2rem;
+}
+
+ol > li {
+  list-style: none;
+}
+
+.img, iframe {
+  width: 50vw;
+  height: 60vh;
+  border: 2px solid #223b44;
+  margin: 0 auto;
+  border-radius: .5rem;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  height: 50vh;
+  background-color: #0b191d;
+  position: absolute;
+  color: #fff;
+}
+
+.contact {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #babaae;
+}
+
+.contact:hover {
+  color: #a44c21;
+  transition: .1s;
+}
+
+.exibe_menu {
+  left: 0!important;
+}
+
+@media screen and (max-width: 425px) {
+  header h1 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  nav.menu {
+    width: 100%;
+    left: -100%;
+  }
+}
