@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: rgba(224, 224, 224, 0.863);
+}
+
+.text {
+  display: flex; /*alinha os itens um ao lado do outro*/
+  justify-content: center; /*os itens ficarão alinhados no centro da linha*/
+  flex-direction: column;
+  align-items: center /*os itens também ficarão alinhados na vertical*/
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  text-indent: 8rem;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  width: calc(100%/2);
+  max-width: 100%;
+  text-align: justify;
+  text-indent: 2rem;
+}

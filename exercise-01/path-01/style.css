@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  padding: 0px;
+  box-sizing: border-box; /*usado para que a largura dos elementos não sofram alteração com o valor do padding*/
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.start {
+  background-image: url(image/bkgd_home.jfif);
+  filter: grayscale(.7);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.block_presentation {
+  width: 100%;
+  height: 100%;
+  display: flex; /*alinha os itens um ao lado do outro*/
+  justify-content: center; /*os itens ficarão alinhados no centro da linha*/
+  align-items: center /*os itens também ficarão alinhados na vertical*/
+}
+
+#presentation {
+  color: rgb(189, 189, 189);
+  font-size: 1.75rem;
+  background-color: #33060ad8;
+  border: 1px rgba(0, 0, 0, 0.781) solid;
+  border-radius: .5rem;
+  padding: 1rem;
+  text-align: center; 
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+h2, h3 {
+  color: #33060ad8;
+}
+
+.article {
+  height: 100vh;
+}
+
+.question {
+  margin-top: 10vh;
+  text-align: center;
+  font-weight: bold;
+}
+
+.no_top {
+  margin-top: 0vh;
+}
+
+/**** CSS das 5 Tags HTML ****/
+body{
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #444;
+  line-height: 25px;
+}
+
+main, footer {
+  background-color: rgba(141, 39, 39, 0.616);
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap; /*aplica quebra de linha, respeitando a largura que foi dada ao bloco*/
+  max-width: 900px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.block {
+  width: calc(100%/3 - 20px); /*divide 100% da tela em 3 partes e subtrai o valor lateral da margem*/
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px 0px rgba(51, 6, 10, 0.85);
+  
+  display: flex;
+  flex-direction: column; /*define que os elementos serão exibidos por coluna*/
+}
+
+.tag_name {
+  text-align: center;
+}
+
+.tag_name img {
+  width: 100%;
+  height: 100%;
+}
+
+.block_desc {
+  text-align: justify;
+  padding: 15px;
+  flex-grow: 1; /*empurra todo o conteúdo para baixo mantendo a altura do maior elemento*/
+}
+
+.block_desc p {
+  text-indent: 2rem;
+} /* Indentação dos parágrafos. */
+
+.block_link {
+  border-top: 1px solid #ccc;
+}
+
+.block_link a {
+  color: #33060ad8;
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 0;
+  transition: .2s ease;
+}
+
+.block_link a:hover {
+  background-color: rgb(241, 235, 235);
+  color: #8f4854;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .block {
+    width: calc(100%/2 - 20px);
+  }
+  .tag_name {
+    height: calc((100vw /2 - 20px) /2);
+  }
+} /*agora apenas dois blocos serão exibidos por coluna, quando a página atingir a largura <= 768px*/
+
+
+@media (max-width: 425px) {
+  .block {
+    width: calc(100% - 20px);
+  }
+  .tag_name {
+    height: calc((100vw - 20px) /2);
+  }
+} /*agora apenas um bloco será exibido por coluna, quando a página atingir a largura <= 425px*/
+
+
+@media (max-width: 320px) {
+  .block {
+    width: calc(100%);
+    margin: 10px 0;
+  }
+  .tag_name {
+    height: calc(100vw /2);
+  }
+} /* removi a margem, tirando a largura de 20px*/
+
+/**** CSS da tabela ****/
+.Table_content {
+  display:flex;
+  margin: auto;
+}
+
+.Table {
+  width: 100vw;
+  text-align: center;
+}
+    
+.Table thead, tbody {
+  background-image: url(image/table_bkgd.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  font-weight: bold;
+  color: #fff;
+}
+    
+.Table th, .Table td {
+  padding: 7px 0;
+}
+
+@media screen and (max-width: 480px) {
+  .Table_content {
+    width: 94%;
+  }
+  .Table thead {
+    display:none;
+  }
+  .Table tbody td {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .Table_content {
+    width:100%;
+  }
+  .Table tbody tr td:nth-child(1) {
+    width:10%;
+  }
+  .Table tbody tr td:nth-child(2) {
+    width:30%;
+  }
+  .Table tbody tr td:nth-child(3) {
+    width:20%;
+  }
+  .Table tbody tr td:nth-child(4) {
+    width:10%;
+  }
+  .Table tbody tr td:nth-child(5) {
+    width:30%;
+  }
+}
+
+code {
+  color: #8f4854;
+  font-size: 105%;
+  background-color: rgb(241, 235, 235);
+  padding: .2rem;
+}
+
+footer {
+  height: 45vh;
+}
+
+.nav {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #33060ad8;
+  background-attachment: fixed;
+  color: rgb(189, 189, 189);
+  font-weight: bolder;
+  border: 1px solid #33060ad8;
+  padding: .5rem;
+  border-radius: .3rem;
+}
+
+.button:hover {
+  transition: .2s ease;
+  color: #33060ad8;
+  background-color: rgb(189, 189, 189);
+}
+
