@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Estilo da div container */
+.container {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 90%;
+}
+
+/* Estilo dos headings e hr */
+h1, h2, th {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2 {
+  margin-bottom: 0px;
+}
+
+hr {
+  margin: 0px 0px;
+}
+
+/* Estilo dos paragraphs */
+p, td {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  margin: .5rem 0px;
+}
+
+/* Estilo e efeito dos Links */
+a {
+  text-decoration: none;
+  color: #0645ad;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo da table */
+table {
+  border: 1px solid #a2a9b1;
+  text-align: center;
+}
+
+.button_hidden {
+  float: right;
+  font-weight: normal;
+  text-align: right;
+}
+
+abbr:hover {
+  cursor: help;
+}
