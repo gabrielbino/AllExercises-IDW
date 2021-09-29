@@ -30,7 +30,10 @@
       </section>
       <section>
         <h2>O que nos faz evoluir?</h2>
-        <video class="video" src="video/desejo.mp4" controls loop>Aqui tem um vídeo</video>
+        <video id="video" controls loop autoplay preload="metadata">
+          <source src="video/desejo.mp4" type="video/mp4">
+          <track label="English" kind="captions" srclang="en" src="resources/myvideo-en.vtt" default> <!-- Add caption -->
+        </video>
       </section>
       <footer>
         <p style="margin-bottom: 20px;"><a class="pfoot" href="https://essentia.com.br/" target="_blank">Link da página original</a></p>
