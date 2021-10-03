@@ -3,21 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="globalStyle.css">
     <title>Layout with Flexbox</title>
   </head>
   <body>
     <header>
       <nav>
         <a href="index.html" class="menu">Home</a>
-        <a href="" class="menu">About me</a>
-        <a href="" class="menu">Goals</a>
+        <a href="aboutMe.html" class="menu">About me</a>
+        <a href="#" class="menu">Goals</a>
         <a href="contact.html" class="menu">Contact</a>
       </nav>
     </header>
-    <main>
-      <aside id="extraInfo" aria-labelledby="Extra Information about the content"></aside>
-      <section></section>
-      <aside id="ads" aria-labelledby="Space for Ads"></aside>
+    <main id="homeMain">
+      <aside id="extraInfo" class="homeChild" aria-labelledby="Extra Information about the content">left aside</aside>
+      <section class="homeChild">Section</section>
+      <aside id="ads" class="homeChild" aria-labelledby="Space for Ads">right aside</aside>
     </main>
     <footer></footer>
   </body>

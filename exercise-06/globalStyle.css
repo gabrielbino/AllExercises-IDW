@@ -2,3 +2,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); /* Body font */
 
 * {margin: 0; font-family: 'Montserrat', sans-serif;}
+
+header {
+  height: 5.2rem;
+  background-color: antiquewhite;
+}
+
+nav {
+  height: 5.2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+} /* Nav how container */
+
+.menu {
+  padding: .5rem;
+  text-decoration: none;
+  background-color: transparent;
+  color: brown;
+} /* Class menu how child */
+
+.menu:hover {
+  color: black;
+  border-radius: .5rem;
+  background-color: aquamarine;
+  transition: all .3s;
+}
+
+/* Home */
+#homeMain {
+  display: flex;
+}
+
+#extraInfo {
+  height: 100vh;
+  width: 20%;
+  background-color: red;
+}
+
+section {
+  height: 100vh;
+  width: 60%;
+  background-color: blue;
+}
+
+#ads {
+  height: 100vh;
+  width: 20%;
+  background-color: chartreuse;
+}
+
+/* About me */
+#AboutMeMain {
+  height: 100vh;
+  width: 100%;
+}
+
+#AboutMeContainer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  background-color: beige;
+}
+
+/* Media queries */
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 360px) {
+  #homeMain {
+    flex-direction: column;
+  }
+  .homeChild {
+    
+  }
+}
