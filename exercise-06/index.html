@@ -8,19 +8,33 @@
     <title>Layout with Flexbox</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav>
-        <a href="index.html" class="menu">Home</a>
+        <a href="#homeMain" class="menu">Home</a>
         <a href="aboutMe.html" class="menu">About me</a>
-        <a href="#" class="menu">Goals</a>
-        <a href="contact.html" class="menu">Contact</a>
+        <a href="#footer" class="menu">Contact</a>
       </nav>
     </header>
     <main id="homeMain">
-      <aside id="extraInfo" class="homeChild" aria-labelledby="Extra Information about the content">left aside</aside>
-      <section class="homeChild">Section</section>
-      <aside id="ads" class="homeChild" aria-labelledby="Space for Ads">right aside</aside>
+      <section class="homeChild section">
+          <h1><br>The powerful Flexbox</h1>
+          <p class="subtitle">A transform able resource your application.</p>
+      </section>
+      <aside class="homeChild ads">
+        <br> <p>I am a Ads!</p> <br>
+        <a href="https://www.canva.com/design/DAEr5WZVqPw/Y0RdEc0oC2As3Sa8i6kKwA/view?utm_content=DAEr5WZVqPw&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu" target="_blank">
+          <img class="imgCenter" src="image/ads.png" alt="Ads image ilustractive" width="150rem" height="150rem">
+        </a>
+        <p> <br> My objective is share <br> a product, service or <br> idea with you.</p> <br>
+      </aside>
     </main>
-    <footer></footer>
+    <footer id="footer">
+      <p><br>Give me a feedback!</p>
+      <div class="fContainer">
+        <a href="https://www.linkedin.com/in/gabriel-fernandes-bino-456499195/" class="ctt menu"><img src="image/lkdn.png" alt="logo LinkedIn" width="25px" height="25px"></a>
+        <a href="https://github.com/gabrielbino" class="ctt menu"><img src="image/github.png" alt="logo Github" width="25px" height="25px"></a>
+        <a href="https://api.whatsapp.com/send?phone=5548988325017&text=Visualizei%20a%20sua%20atividade!" class="ctt menu"><img src="image/whatsapp.png" alt="logo WhatsApp" width="25px" height="25px"></a>
+      </div>
+    </footer>
   </body>
 </html>
