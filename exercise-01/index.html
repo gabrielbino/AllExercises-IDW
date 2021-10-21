@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="sortcut icon" href="image/logo_html.png" type="image/x-icon" />
+    <!-- Insere uma imagem na aba do navegador-->
+    <title>Atividade 01</title>
+  </head>
+  <body>
+    <main>
+      <!-- Especifica o conteúdo principal-->
+      <header class="start">
+        <!-- Cabeçalho-->
+        <div class="block_presentation">
+          <div id="presentation">
+            <h1>Introdução ao Desenvolvimento Web</h1>
+            <br />
+            <p>Curso: Sistemas de Informação</p>
+            <p>Orientador: Cristiano Mesquita Garcia</p>
+            <p>Por Gabriel Fernandes Bino</p>
+            <br />
+          </div>
+        </div>
+      </header>
+      <h2 class="question">Tags HTML não vistas em aula</h2>
+      <div class="wrapper">
+        <div class="block">
+          <div class="tag_name">
+            <h3>audio</h3>
+            <p><code>&lt;audio&gt;&lt;/audio&gt;</code></p>
+          </div>
+          <div class="block_desc">
+            <p>
+              É usada para incorporar conteúdo sonoro em um documento. Essa tag
+              pode conter diferentes fontes de áudio, o navegador escolherá a
+              primeira fonte que ele suportar. O texto entre as tags só será
+              exibido em navegadores que não suportam o elemento.
+            </p>
+          </div>
+          <div class="block_link">
+            <a
+              href="https://www.w3schools.com/tags/tag_audio.asp"
+              target="_blank"
+              >Ver mais</a
+            >
+          </div>
+        </div>
+        <div class="block">
+          <div class="tag_name">
+            <h3>blockquote</h3>
+            <p><code>&lt;blockquote&gt;&lt;/blockquote&gt;</code></p>
+          </div>
+          <div class="block_desc">
+            <p>
+              Usada para realizar citações de conteúdos disponíveis em outros
+              sites ou ainda outras fontes, como por exemplo: trechos de livros
+              ou textos impressos. Tem como atributo a tag
+              <code>&lt;cite&gt;&lt;/cite&gt;</code> que especifica a origem da
+              citação.
+            </p>
+          </div>
+          <div class="block_link">
+            <a
+              href="https://www.w3schools.com/tags/tag_blockquote.asp"
+              target="_blank"
+              >Ver mais</a
+            >
+          </div>
+        </div>
+        <div class="block">
+          <div class="tag_name">
+            <h3>code</h3>
+            <p><code>&lt;code&gt;&lt;/code&gt;</code></p>
+          </div>
+          <div class="block_desc">
+            <p>
+              É usada para definir um código de computador. O conteúdo é exibido
+              na fonte monospace padrão do navegador.
+            </p>
+          </div>
+          <div class="block_link">
+            <a
+              href="https://www.w3schools.com/tags/tag_code.asp"
+              target="_blank"
+              >Ver mais</a
+            >
+          </div>
+        </div>
+        <div class="block">
+          <div class="tag_name">
+            <h3>description list</h3>
+            <p><code>&lt;dl&gt;&lt;/dl&gt;</code></p>
+          </div>
+          <div class="block_desc">
+            <p>
+              Define uma lista de descrição. Normalmente usada em sites de
+              significados de palavras. É usada em conjunto com:
+              <code>&lt;dt&gt;&lt;/dt&gt;</code> que define o termo/nome; e
+              <code>&lt;dd&gt;&lt;/dd&gt;</code> que descreve cada termo/nome.
+            </p>
+          </div>
+          <div class="block_link">
+            <a href="https://www.w3schools.com/tags/tag_dl.asp" target="_blank"
+              >Ver mais</a
+            >
+          </div>
+        </div>
+        <div class="block">
+          <div class="tag_name">
+            <h3>iframe</h3>
+            <p><code>&lt;iframe&gt;&lt;/iframe&gt;</code></p>
+          </div>
+          <div class="block_desc">
+            <p>
+              É responsável por incorporar no site o conteúdo de uma página
+              externa. Ao invés de tirar o usuário da página (utilizando
+              <code>&lt;a&gt;&lt;/a&gt;</code>) para visualizar determinado
+              conteúdo, podemos trazer o conteúdo para o nosso site.
+            </p>
+          </div>
+          <div class="block_link">
+            <a
+              href="https://www.w3schools.com/tags/tag_iframe.asp"
+              target="_blank"
+              >Ver mais</a
+            >
+          </div>
+        </div>
+        <div class="block">
+          <div class="tag_name">
+            <h3>table</h3>
+            <p><code>&lt;table&gt;&lt;/table&gt;</code></p>
+          </div>
+          <div class="block_desc">
+            <p>
+              Define uma tabela no HTML. Sua formação básica é composta por
+              linhas <code>&lt;tr&gt;&lt;/tr&gt;</code>, colunas
+              <code>&lt;td&gt;&lt;/td&gt;</code> e cabeçalhos
+              <code>&lt;th&gt;&lt;/th&gt;</code>.
+            </p>
+          </div>
+          <div class="block_link">
+            <a
+              href="https://www.w3schools.com/tags/tag_table.asp"
+              target="_blank"
+              >Ver mais</a
+            >
+          </div>
+        </div>
+      </div>
+      <br /><br />
+      <div class="Table_content">
+        <table class="Table">
+          <caption>
+            <h2 class="question no_top">
+              Anatomia básica de um documento HTML
+            </h2>
+          </caption>
+          <thead>
+            <tr>
+              <th>NOME</th>
+              <th>DESCRIÇÃO</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>&lt;!DOCTYPE html&gt;</code></td>
+              <td>É a declaração que define que este é um documento HTML5.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;html&gt;</code></td>
+              <td>
+                É o elemento raiz de uma página HTML, contêm todos os outros
+                elementos filhos.
+              </td>
+            </tr>
+            <tr>
+              <td><code>&lt;head&gt;</code></td>
+              <td>
+                Contêm informações adicionais sobre a página. Recebe os links
+                para folha de estilo, palavras-chaves para indexação, descrição
+                da página e título.
+              </td>
+            </tr>
+            <tr>
+              <td><code>&lt;title&gt;</code></td>
+              <td>Responsável por nomear a aba do navegador.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;body&gt;</code></td>
+              <td>
+                Define o corpo do documento e é o container para todo o conteúdo
+                visível, como: títulos, parágrafos, imagens, hyperlinks,
+                tabelas, listas, etc.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <footer>
+      <nav class="nav">
+        <a href="sobre_mim.html" class="button" target="_blank"
+          >Sobre o Autor</a
+        >
+        <a href="page_ifsc.html" class="button" target="_blank"
+          >HTML da página solicitada</a
+        >
+      </nav>
+    </footer>
+  </body>
+</html>
