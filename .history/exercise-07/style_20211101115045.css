@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#containerSearch {
+  display: flex;
+  border: 1px solid black;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+#containerSearch > div {
+  margin-right: 13px;
+}
+
+#search {
+  width: 527px;
+}
+
+input {
+  border: none;
+}
