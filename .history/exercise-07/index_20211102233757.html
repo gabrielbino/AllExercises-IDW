@@ -10,12 +10,20 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
     <title>Google</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="toggle">
+        <input id="switch" type="checkbox" name="theme" />
+        <label for="switch">Toggle</label>
+      </div>
+    </header>
     <main class="container">
-      <h1 id="logo">Google</h1>
+      <div>
+        <h1 class="logo">Google</h1>
+      </div>
       <form>
         <label class="containerSearch">
           <i class="bi bi-search"></i>
@@ -25,12 +33,10 @@
             title="Search"
             aria-label="Search"
             spellcheck="false"
-            autocomplete="off"
+            aria-autocomplete="both"
             maxlength="1000"
           />
         </label>
-        <input type="submit" value="Google Search" />
-        <input type="submit" value="I'm Feeling lucky" />
       </form>
     </main>
     <footer></footer>

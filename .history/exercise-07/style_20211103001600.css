@@ -68,5 +68,6 @@ input[type="text"] {
 
 input[type="submit"] {
   cursor: pointer;
+  padding: 1rem;
   text-align: center;
 }

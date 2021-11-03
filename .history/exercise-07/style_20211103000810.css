@@ -61,12 +61,7 @@ html {
   flex: 100%;
 }
 
-input[type="text"] {
+input {
   border: none;
   outline: none;
-}
-
-input[type="submit"] {
-  cursor: pointer;
-  text-align: center;
 }

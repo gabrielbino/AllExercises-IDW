@@ -14,23 +14,23 @@
   </head>
   <body>
     <header></header>
-    <main class="container">
-      <h1 id="logo">Google</h1>
+    <main id="container">
+      <div>
+        <h1 id="logo">Google</h1>
+      </div>
       <form>
-        <label class="containerSearch">
+        <label id="containerSearch">
           <i class="bi bi-search"></i>
           <input
             type="text"
-            class="search"
+            id="search"
             title="Search"
             aria-label="Search"
             spellcheck="false"
-            autocomplete="off"
+            aria-autocomplete="both"
             maxlength="1000"
           />
         </label>
-        <input type="submit" value="Google Search" />
-        <input type="submit" value="I'm Feeling lucky" />
       </form>
     </main>
     <footer></footer>

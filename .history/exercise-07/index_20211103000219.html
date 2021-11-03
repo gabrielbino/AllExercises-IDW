@@ -15,7 +15,9 @@
   <body>
     <header></header>
     <main class="container">
-      <h1 id="logo">Google</h1>
+      <div>
+        <h1 id="logo">Google</h1>
+      </div>
       <form>
         <label class="containerSearch">
           <i class="bi bi-search"></i>
@@ -25,14 +27,13 @@
             title="Search"
             aria-label="Search"
             spellcheck="false"
-            autocomplete="off"
+            aria-autocomplete="both"
             maxlength="1000"
           />
         </label>
-        <input type="submit" value="Google Search" />
-        <input type="submit" value="I'm Feeling lucky" />
       </form>
     </main>
     <footer></footer>
+    <script src="script.js"></script>
   </body>
 </html>
