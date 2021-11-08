@@ -38,3 +38,7 @@ img {
 .between > a {
   padding: 15px;
 }
+
+footer {
+  float: both;
+}

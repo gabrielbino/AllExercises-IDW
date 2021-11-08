@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-family: "arial", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #logo {
@@ -9,7 +13,6 @@
   background-size: 400% 400%;
   color: transparent;
   font-size: 10vw;
-  font-family: Georgia, "Times New Roman", Times, serif;
   animation: gradient 8s ease infinite;
 }
 
@@ -25,16 +28,13 @@
   }
 }
 
-i,
-img {
+i {
   cursor: pointer;
 }
 
-img {
-  width: 32px;
-  height: 32px;
-}
-
-.between > a {
-  padding: 15px;
+i:hover {
+  background-color: rgb(189, 189, 189);
+  border-radius: 50%;
+  padding: 4px;
+  width: 100%;
 }

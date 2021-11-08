@@ -38,3 +38,8 @@ img {
 .between > a {
   padding: 15px;
 }
+
+footer {
+  display: flex;
+  justify-content: end;
+}
