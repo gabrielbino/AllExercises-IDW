@@ -10,9 +10,7 @@
 
 ### Usados no projeto:
 
-<div>
-  - [x] HTML5
-  - [x] CSS3
-  - [ ] Responsividade
-  - [x] Google Icons | Google fonts
-</div>
+ - [x] HTML5
+ - [x] CSS3
+ - [ ] Responsividade
+ - [x] Google Icons | Google fonts
