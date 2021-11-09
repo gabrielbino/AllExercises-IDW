@@ -94,23 +94,11 @@ input[type="text"] {
 
 .btn {
   padding-top: 18px;
-}
-
-.submit:hover {
-  cursor: pointer;
+  font-size: 14px;
 }
 
 .lucky:hover {
   text-decoration: none;
-}
-
-.design {
-  padding: 6px 12px;
-  margin: 3px;
-}
-
-.text {
-  text-align: center;
 }
 
 footer {

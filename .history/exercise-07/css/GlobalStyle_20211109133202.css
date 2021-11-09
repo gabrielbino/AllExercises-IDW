@@ -77,7 +77,6 @@ a:hover {
   padding-left: 6px;
 
   border: 1px solid #333333;
-  font-size: 14px;
   border-radius: 24px;
   height: 44px;
   width: 584px;
@@ -96,21 +95,8 @@ input[type="text"] {
   padding-top: 18px;
 }
 
-.submit:hover {
-  cursor: pointer;
-}
-
 .lucky:hover {
   text-decoration: none;
-}
-
-.design {
-  padding: 6px 12px;
-  margin: 3px;
-}
-
-.text {
-  text-align: center;
 }
 
 footer {

@@ -96,21 +96,8 @@ input[type="text"] {
   padding-top: 18px;
 }
 
-.submit:hover {
-  cursor: pointer;
-}
-
 .lucky:hover {
   text-decoration: none;
-}
-
-.design {
-  padding: 6px 12px;
-  margin: 3px;
-}
-
-.text {
-  text-align: center;
 }
 
 footer {

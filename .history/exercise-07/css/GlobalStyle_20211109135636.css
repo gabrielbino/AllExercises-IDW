@@ -80,7 +80,7 @@ a:hover {
   font-size: 14px;
   border-radius: 24px;
   height: 44px;
-  width: 584px;
+  max-width: 36.5em;
 }
 
 input[type="text"] {
